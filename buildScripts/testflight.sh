@@ -125,7 +125,8 @@ xcodebuild \
 	-workspace "${WORKSPACE_FILE}" \
 	-scheme "${SCHEME_NAME}" \
 	-configuration "${CONFIGURATION}" \
-	OBJROOT=$(PWD)/build SYMROOT=$(PWD)/build \
+	OBJROOT="${PWD}/build" \
+	SYMROOT="${PWD}/build" \
 	clean build 
 
 # .ipa file generation
