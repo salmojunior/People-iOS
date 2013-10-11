@@ -7,15 +7,19 @@
 //
 
 #import "PeopleAppDelegate.h"
+#import "PeopleInitialViewController.h"
 
 @implementation PeopleAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    PeopleInitialViewController *initialViewController = [PeopleInitialViewController new];
+    [self.window setRootViewController:initialViewController];
+    
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

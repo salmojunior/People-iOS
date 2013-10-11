@@ -33,6 +33,16 @@
 		D352561318072008003D88E2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D352560618072008003D88E2 /* Roboto-Thin.ttf */; };
 		D352561418072008003D88E2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D352560718072008003D88E2 /* Roboto-ThinItalic.ttf */; };
 		D352561B1807213A003D88E2 /* PeoplePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D352561A1807213A003D88E2 /* PeoplePreferences.m */; };
+		D3AF916B180881A200F74776 /* PeopleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF916A180881A100F74776 /* PeopleBaseViewController.m */; };
+		D3AF916F180881C000F74776 /* PeopleInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF916D180881C000F74776 /* PeopleInitialViewController.m */; };
+		D3AF9170180881C000F74776 /* PeopleInitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF916E180881C000F74776 /* PeopleInitialViewController.xib */; };
+		D3AF9175180881DE00F74776 /* PeopleLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF9173180881DE00F74776 /* PeopleLoginViewController.m */; };
+		D3AF9176180881DE00F74776 /* PeopleLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF9174180881DE00F74776 /* PeopleLoginViewController.xib */; };
+		D3AF917F180881F800F74776 /* PeopleSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF917D180881F800F74776 /* PeopleSearchViewController.m */; };
+		D3AF9180180881F800F74776 /* PeopleSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF917E180881F800F74776 /* PeopleSearchViewController.xib */; };
+		D3AF91841808820800F74776 /* PeopleProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF91821808820800F74776 /* PeopleProfileViewController.m */; };
+		D3AF91851808820800F74776 /* PeopleProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF91831808820800F74776 /* PeopleProfileViewController.xib */; };
+		D3AF91881808821E00F74776 /* PeopleNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF91871808821E00F74776 /* PeopleNavigationViewController.m */; };
 		F79CE7DA28B547428F775C5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 095B7F133C9A432FA5AF8B51 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +90,22 @@
 		D352560718072008003D88E2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		D35256191807213A003D88E2 /* PeoplePreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeoplePreferences.h; path = Classes/PeoplePreferences.h; sourceTree = "<group>"; };
 		D352561A1807213A003D88E2 /* PeoplePreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeoplePreferences.m; path = Classes/PeoplePreferences.m; sourceTree = "<group>"; };
+		D3AF9169180881A100F74776 /* PeopleBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleBaseViewController.h; path = "Classes/View Controllers/PeopleBaseViewController.h"; sourceTree = "<group>"; };
+		D3AF916A180881A100F74776 /* PeopleBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleBaseViewController.m; path = "Classes/View Controllers/PeopleBaseViewController.m"; sourceTree = "<group>"; };
+		D3AF916C180881C000F74776 /* PeopleInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleInitialViewController.h; path = "Classes/View Controllers/PeopleInitialViewController.h"; sourceTree = "<group>"; };
+		D3AF916D180881C000F74776 /* PeopleInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleInitialViewController.m; path = "Classes/View Controllers/PeopleInitialViewController.m"; sourceTree = "<group>"; };
+		D3AF916E180881C000F74776 /* PeopleInitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PeopleInitialViewController.xib; path = "Classes/View Controllers/PeopleInitialViewController.xib"; sourceTree = "<group>"; };
+		D3AF9172180881DE00F74776 /* PeopleLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleLoginViewController.h; path = "Classes/View Controllers/PeopleLoginViewController.h"; sourceTree = "<group>"; };
+		D3AF9173180881DE00F74776 /* PeopleLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleLoginViewController.m; path = "Classes/View Controllers/PeopleLoginViewController.m"; sourceTree = "<group>"; };
+		D3AF9174180881DE00F74776 /* PeopleLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PeopleLoginViewController.xib; path = "Classes/View Controllers/PeopleLoginViewController.xib"; sourceTree = "<group>"; };
+		D3AF917C180881F800F74776 /* PeopleSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleSearchViewController.h; path = "Classes/View Controllers/PeopleSearchViewController.h"; sourceTree = "<group>"; };
+		D3AF917D180881F800F74776 /* PeopleSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleSearchViewController.m; path = "Classes/View Controllers/PeopleSearchViewController.m"; sourceTree = "<group>"; };
+		D3AF917E180881F800F74776 /* PeopleSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PeopleSearchViewController.xib; path = "Classes/View Controllers/PeopleSearchViewController.xib"; sourceTree = "<group>"; };
+		D3AF91811808820800F74776 /* PeopleProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleProfileViewController.h; path = "Classes/View Controllers/PeopleProfileViewController.h"; sourceTree = "<group>"; };
+		D3AF91821808820800F74776 /* PeopleProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleProfileViewController.m; path = "Classes/View Controllers/PeopleProfileViewController.m"; sourceTree = "<group>"; };
+		D3AF91831808820800F74776 /* PeopleProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PeopleProfileViewController.xib; path = "Classes/View Controllers/PeopleProfileViewController.xib"; sourceTree = "<group>"; };
+		D3AF91861808821E00F74776 /* PeopleNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleNavigationViewController.h; path = "Classes/View Controllers/PeopleNavigationViewController.h"; sourceTree = "<group>"; };
+		D3AF91871808821E00F74776 /* PeopleNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleNavigationViewController.m; path = "Classes/View Controllers/PeopleNavigationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +173,7 @@
 				D352561718072098003D88E2 /* Settings and Setup */,
 				D35256151807208C003D88E2 /* Theme */,
 				D35255D018071C48003D88E2 /* Supporting Files */,
+				D3AF9171180881D100F74776 /* View Controllers */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -243,6 +270,29 @@
 			name = Entities;
 			sourceTree = "<group>";
 		};
+		D3AF9171180881D100F74776 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF916C180881C000F74776 /* PeopleInitialViewController.h */,
+				D3AF916D180881C000F74776 /* PeopleInitialViewController.m */,
+				D3AF916E180881C000F74776 /* PeopleInitialViewController.xib */,
+				D3AF9169180881A100F74776 /* PeopleBaseViewController.h */,
+				D3AF916A180881A100F74776 /* PeopleBaseViewController.m */,
+				D3AF9172180881DE00F74776 /* PeopleLoginViewController.h */,
+				D3AF9173180881DE00F74776 /* PeopleLoginViewController.m */,
+				D3AF9174180881DE00F74776 /* PeopleLoginViewController.xib */,
+				D3AF917C180881F800F74776 /* PeopleSearchViewController.h */,
+				D3AF917D180881F800F74776 /* PeopleSearchViewController.m */,
+				D3AF917E180881F800F74776 /* PeopleSearchViewController.xib */,
+				D3AF91811808820800F74776 /* PeopleProfileViewController.h */,
+				D3AF91821808820800F74776 /* PeopleProfileViewController.m */,
+				D3AF91831808820800F74776 /* PeopleProfileViewController.xib */,
+				D3AF91861808821E00F74776 /* PeopleNavigationViewController.h */,
+				D3AF91871808821E00F74776 /* PeopleNavigationViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D352561418072008003D88E2 /* Roboto-ThinItalic.ttf in Resources */,
+				D3AF9176180881DE00F74776 /* PeopleLoginViewController.xib in Resources */,
 				D352561318072008003D88E2 /* Roboto-Thin.ttf in Resources */,
 				D352560818072008003D88E2 /* LICENSE.txt in Resources */,
 				D35255D418071C48003D88E2 /* InfoPlist.strings in Resources */,
@@ -332,12 +383,15 @@
 				D352560B18072008003D88E2 /* Roboto-Bold.ttf in Resources */,
 				D352561118072008003D88E2 /* Roboto-MediumItalic.ttf in Resources */,
 				D352560A18072008003D88E2 /* Roboto-BlackItalic.ttf in Resources */,
+				D3AF9180180881F800F74776 /* PeopleSearchViewController.xib in Resources */,
 				D35255DC18071C48003D88E2 /* Images.xcassets in Resources */,
 				D352560D18072008003D88E2 /* Roboto-Italic.ttf in Resources */,
 				D352560C18072008003D88E2 /* Roboto-BoldItalic.ttf in Resources */,
 				D352561018072008003D88E2 /* Roboto-Medium.ttf in Resources */,
 				D352561218072008003D88E2 /* Roboto-Regular.ttf in Resources */,
+				D3AF91851808820800F74776 /* PeopleProfileViewController.xib in Resources */,
 				D352560918072008003D88E2 /* Roboto-Black.ttf in Resources */,
+				D3AF9170180881C000F74776 /* PeopleInitialViewController.xib in Resources */,
 				D352560E18072008003D88E2 /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,9 +444,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AF91881808821E00F74776 /* PeopleNavigationViewController.m in Sources */,
+				D3AF916B180881A200F74776 /* PeopleBaseViewController.m in Sources */,
 				D35255D618071C48003D88E2 /* main.m in Sources */,
 				D352561B1807213A003D88E2 /* PeoplePreferences.m in Sources */,
+				D3AF916F180881C000F74776 /* PeopleInitialViewController.m in Sources */,
 				D35255DA18071C48003D88E2 /* PeopleAppDelegate.m in Sources */,
+				D3AF91841808820800F74776 /* PeopleProfileViewController.m in Sources */,
+				D3AF917F180881F800F74776 /* PeopleSearchViewController.m in Sources */,
+				D3AF9175180881DE00F74776 /* PeopleLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
