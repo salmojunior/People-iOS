@@ -1,23 +1,23 @@
 PODS:
-  - AFNetworking (2.0.0):
+  - AFNetworking (2.0.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.0.0):
+  - AFNetworking/NSURLConnection (2.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.0.0):
+  - AFNetworking/NSURLSession (2.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.0.0)
-  - AFNetworking/Security (2.0.0)
-  - AFNetworking/Serialization (2.0.0)
-  - AFNetworking/UIKit (2.0.0):
+  - AFNetworking/Reachability (2.0.1)
+  - AFNetworking/Security (2.0.1)
+  - AFNetworking/Serialization (2.0.1)
+  - AFNetworking/UIKit (2.0.1):
     - AFNetworking/NSURLConnection
   - ARSafeJSON (0.0.7)
   - BKUIAdditions (1.0)
@@ -40,7 +40,7 @@ PODS:
   - SSKeychain (1.2.1)
 
 DEPENDENCIES:
-  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
+  - AFNetworking
   - AFNetworking/UIKit
   - ARSafeJSON
   - BKUIAdditions (from `https://github.com/brunokoga/BKUIAdditions.git`)
@@ -49,15 +49,13 @@ DEPENDENCIES:
   - SSKeychain
 
 EXTERNAL SOURCES:
-  AFNetworking:
-    :git: https://github.com/AFNetworking/AFNetworking.git
   BKUIAdditions:
     :git: https://github.com/brunokoga/BKUIAdditions.git
   PeopleSwipeTableViewCell:
     :git: https://github.com/brunokoga/PeopleSwipeTableViewCell.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 1783019b8e2ca05169a859fb79d781552fefe420
+  AFNetworking: a6f11ac4ac087303e6ff87adc1ba57b0dac20ef8
   ARSafeJSON: 737d05b66a51376fcc7c548569c457a77a70bd2c
   BKUIAdditions: 77a86d349bfc570c7fa920991d12b2a91932903a
   FormatterKit: 43c6567e367a872196747fda0c26395c37bd7dd6
