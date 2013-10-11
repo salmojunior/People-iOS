@@ -93,6 +93,7 @@ done
 WORKSPACE_FILE=""
 PROJECT_FILE=""
 if [[ $USE_COCOA_PODS = YES ]]; then
+	pod install
 	WORKSPACE_FILE="${PROJECT_NAME}.xcworkspace"
 else
 	PROJECT_FILE="${PROJECT_NAME}.xcodeproj"
