@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (2.0.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.0.0)
+  - AFNetworking/Security (2.0.0)
+  - AFNetworking/Serialization (2.0.0)
+  - AFNetworking/UIKit (2.0.0):
+    - AFNetworking/NSURLConnection
+  - ARSafeJSON (0.0.7)
+  - BKUIAdditions (1.0)
+  - FormatterKit (1.2.1):
+    - FormatterKit/AddressFormatter
+    - FormatterKit/ArrayFormatter
+    - FormatterKit/LocationFormatter
+    - FormatterKit/OrdinalNumberFormatter
+    - FormatterKit/TimeIntervalFormatter
+    - FormatterKit/UnitOfInformationFormatter
+    - FormatterKit/URLRequestFormatter
+  - FormatterKit/AddressFormatter (1.2.1)
+  - FormatterKit/ArrayFormatter (1.2.1)
+  - FormatterKit/LocationFormatter (1.2.1)
+  - FormatterKit/OrdinalNumberFormatter (1.2.1)
+  - FormatterKit/TimeIntervalFormatter (1.2.1)
+  - FormatterKit/UnitOfInformationFormatter (1.2.1)
+  - FormatterKit/URLRequestFormatter (1.2.1)
+  - PeopleSwipeTableViewCell (1.0)
+  - SSKeychain (1.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
+  - AFNetworking/UIKit
+  - ARSafeJSON
+  - BKUIAdditions (from `https://github.com/brunokoga/BKUIAdditions.git`)
+  - FormatterKit (~> 1.2.0)
+  - PeopleSwipeTableViewCell (from `https://github.com/brunokoga/PeopleSwipeTableViewCell.git`)
+  - SSKeychain
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+  BKUIAdditions:
+    :git: https://github.com/brunokoga/BKUIAdditions.git
+  PeopleSwipeTableViewCell:
+    :git: https://github.com/brunokoga/PeopleSwipeTableViewCell.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 1783019b8e2ca05169a859fb79d781552fefe420
+  ARSafeJSON: 737d05b66a51376fcc7c548569c457a77a70bd2c
+  BKUIAdditions: 77a86d349bfc570c7fa920991d12b2a91932903a
+  FormatterKit: 43c6567e367a872196747fda0c26395c37bd7dd6
+  PeopleSwipeTableViewCell: fbd4456e677bb19d32577973b1582d757c46f31b
+  SSKeychain: d18926838c2e7cd342e2a49e9f869858e49f035a
+
+COCOAPODS: 0.25.0
