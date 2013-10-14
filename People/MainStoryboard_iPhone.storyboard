@@ -20,7 +20,7 @@
                     <navigationItem key="navigationItem" id="8dY-pL-H99"/>
                     <connections>
                         <segue destination="T0f-Yj-H6o" kind="custom" identifier="InitialToLoginSegue" customClass="PeopleInitialToLoginSegue" id="8dl-GO-ocV"/>
-                        <segue destination="EvD-ep-0sV" kind="custom" identifier="InitialToSearchSegue" id="lmo-KT-C3u"/>
+                        <segue destination="EvD-ep-0sV" kind="custom" identifier="InitialToSearchSegue" customClass="PeopleInitialToSearchSegue" id="lmo-KT-C3u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJB-bp-R7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -41,7 +41,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="EvD-ep-0sV" kind="custom" identifier="LoginToSearchSegue" id="xzm-hi-OYv"/>
+                        <segue destination="EvD-ep-0sV" kind="custom" identifier="LoginToSearchSegue" customClass="PeopleLoginToSearchSegue" id="xzm-hi-OYv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzo-Y0-pgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,7 +62,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="nUv-FM-4fo" kind="custom" identifier="SearchToProfileSegue" id="D8K-w7-dev"/>
+                        <segue destination="nUv-FM-4fo" kind="custom" identifier="SearchToProfileSegue" customClass="PeopleSearchToProfileSegue" id="D8K-w7-dev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOn-Hs-yzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
