@@ -33,6 +33,7 @@
 		D352561318072008003D88E2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D352560618072008003D88E2 /* Roboto-Thin.ttf */; };
 		D352561418072008003D88E2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D352560718072008003D88E2 /* Roboto-ThinItalic.ttf */; };
 		D352561B1807213A003D88E2 /* PeoplePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D352561A1807213A003D88E2 /* PeoplePreferences.m */; };
+		D36C0C42180C205C008C8CBB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36C0C41180C205C008C8CBB /* MainStoryboard_iPhone.storyboard */; };
 		D3AF916B180881A200F74776 /* PeopleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF916A180881A100F74776 /* PeopleBaseViewController.m */; };
 		D3AF916F180881C000F74776 /* PeopleInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AF916D180881C000F74776 /* PeopleInitialViewController.m */; };
 		D3AF9170180881C000F74776 /* PeopleInitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF916E180881C000F74776 /* PeopleInitialViewController.xib */; };
@@ -90,6 +91,7 @@
 		D352560718072008003D88E2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		D35256191807213A003D88E2 /* PeoplePreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeoplePreferences.h; path = Classes/PeoplePreferences.h; sourceTree = "<group>"; };
 		D352561A1807213A003D88E2 /* PeoplePreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeoplePreferences.m; path = Classes/PeoplePreferences.m; sourceTree = "<group>"; };
+		D36C0C41180C205C008C8CBB /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = People/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D3AF9169180881A100F74776 /* PeopleBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleBaseViewController.h; path = "Classes/View Controllers/PeopleBaseViewController.h"; sourceTree = "<group>"; };
 		D3AF916A180881A100F74776 /* PeopleBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleBaseViewController.m; path = "Classes/View Controllers/PeopleBaseViewController.m"; sourceTree = "<group>"; };
 		D3AF916C180881C000F74776 /* PeopleInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleInitialViewController.h; path = "Classes/View Controllers/PeopleInitialViewController.h"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		D35255BD18071C48003D88E2 = {
 			isa = PBXGroup;
 			children = (
+				D36C0C41180C205C008C8CBB /* MainStoryboard_iPhone.storyboard */,
 				D35255CF18071C48003D88E2 /* People */,
 				D35255F818071FDD003D88E2 /* Resources */,
 				D35255E818071C48003D88E2 /* PeopleTests */,
@@ -384,6 +387,7 @@
 				D352561118072008003D88E2 /* Roboto-MediumItalic.ttf in Resources */,
 				D352560A18072008003D88E2 /* Roboto-BlackItalic.ttf in Resources */,
 				D3AF9180180881F800F74776 /* PeopleSearchViewController.xib in Resources */,
+				D36C0C42180C205C008C8CBB /* MainStoryboard_iPhone.storyboard in Resources */,
 				D35255DC18071C48003D88E2 /* Images.xcassets in Resources */,
 				D352560D18072008003D88E2 /* Roboto-Italic.ttf in Resources */,
 				D352560C18072008003D88E2 /* Roboto-BoldItalic.ttf in Resources */,
