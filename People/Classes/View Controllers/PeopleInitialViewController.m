@@ -28,6 +28,7 @@
 }
 
 static NSString * const kInitialToLoginSegue = @"InitialToLoginSegue";
+static NSString * const kInitialToSearchSegue = @"InitialToSearchSegue";
 
 - (IBAction)transitionToLogin:(id)sender
 {
