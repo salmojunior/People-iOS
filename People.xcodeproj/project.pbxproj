@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB3A9B6180C81AA00EBF173 /* PeopleCollaborator.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3A9B5180C81AA00EBF173 /* PeopleCollaborator.m */; };
+		AAB3A9B7180C81AA00EBF173 /* PeopleCollaborator.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3A9B5180C81AA00EBF173 /* PeopleCollaborator.m */; };
+		AAB3A9BB180C81EB00EBF173 /* PeopleURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3A9BA180C81EB00EBF173 /* PeopleURLSessionManager.m */; };
+		AAB3A9BC180C81EC00EBF173 /* PeopleURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3A9BA180C81EB00EBF173 /* PeopleURLSessionManager.m */; };
 		D35255CA18071C48003D88E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35255C918071C48003D88E2 /* Foundation.framework */; };
 		D35255CC18071C48003D88E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35255CB18071C48003D88E2 /* CoreGraphics.framework */; };
 		D35255CE18071C48003D88E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35255CD18071C48003D88E2 /* UIKit.framework */; };
@@ -64,6 +68,10 @@
 /* Begin PBXFileReference section */
 		095B7F133C9A432FA5AF8B51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		218916EF91C549FCA6874668 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AAB3A9B4180C81AA00EBF173 /* PeopleCollaborator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleCollaborator.h; path = Classes/Entities/PeopleCollaborator.h; sourceTree = "<group>"; };
+		AAB3A9B5180C81AA00EBF173 /* PeopleCollaborator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleCollaborator.m; path = Classes/Entities/PeopleCollaborator.m; sourceTree = "<group>"; };
+		AAB3A9B9180C81EB00EBF173 /* PeopleURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleURLSessionManager.h; path = Classes/Connection/PeopleURLSessionManager.h; sourceTree = "<group>"; };
+		AAB3A9BA180C81EB00EBF173 /* PeopleURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleURLSessionManager.m; path = Classes/Connection/PeopleURLSessionManager.m; sourceTree = "<group>"; };
 		D35255C618071C48003D88E2 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35255C918071C48003D88E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D35255CB18071C48003D88E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +155,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB3A9B8180C81CA00EBF173 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3A9B9180C81EB00EBF173 /* PeopleURLSessionManager.h */,
+				AAB3A9BA180C81EB00EBF173 /* PeopleURLSessionManager.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
 		D35255BD18071C48003D88E2 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +201,7 @@
 		D35255CF18071C48003D88E2 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3A9B8180C81CA00EBF173 /* Connection */,
 				D35256181807209F003D88E2 /* Entities */,
 				D352561718072098003D88E2 /* Settings and Setup */,
 				D35256151807208C003D88E2 /* Theme */,
@@ -282,6 +300,8 @@
 		D35256181807209F003D88E2 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3A9B4180C81AA00EBF173 /* PeopleCollaborator.h */,
+				AAB3A9B5180C81AA00EBF173 /* PeopleCollaborator.m */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -487,7 +507,9 @@
 				D36C0C48180C3036008C8CBB /* PeopleInitialToSearchSegue.m in Sources */,
 				D3AF91841808820800F74776 /* PeopleProfileViewController.m in Sources */,
 				D3AF917F180881F800F74776 /* PeopleSearchViewController.m in Sources */,
+				AAB3A9BB180C81EB00EBF173 /* PeopleURLSessionManager.m in Sources */,
 				D36C0C45180C2F76008C8CBB /* PeopleInitialToLoginSegue.m in Sources */,
+				AAB3A9B6180C81AA00EBF173 /* PeopleCollaborator.m in Sources */,
 				D3AF9175180881DE00F74776 /* PeopleLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +518,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB3A9B7180C81AA00EBF173 /* PeopleCollaborator.m in Sources */,
 				D35255EF18071C48003D88E2 /* PeopleTests.m in Sources */,
+				AAB3A9BC180C81EC00EBF173 /* PeopleURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
