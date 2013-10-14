@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/*
+    Model class that holds the user information
+*/
+
 @interface PeoplePreferences : NSObject
 
 + (BOOL)isAutoLoginOn;
