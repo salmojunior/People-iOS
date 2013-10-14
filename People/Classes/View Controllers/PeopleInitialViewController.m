@@ -27,11 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+static NSString * const kInitialToLoginSegue = @"InitialToLoginSegue";
 
 - (IBAction)transitionToLogin:(id)sender
 {
-    NSLog(@"oi");
+    [self performSegueWithIdentifier:kInitialToLoginSegue
+                              sender:self];
 }
+
 
 
 @end

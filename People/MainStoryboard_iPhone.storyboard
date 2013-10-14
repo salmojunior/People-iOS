@@ -19,7 +19,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8dY-pL-H99"/>
                     <connections>
-                        <segue destination="T0f-Yj-H6o" kind="custom" identifier="InitialToLoginSegue" id="8dl-GO-ocV"/>
+                        <segue destination="T0f-Yj-H6o" kind="custom" identifier="InitialToLoginSegue" customClass="PeopleInitialToLoginSegue" id="8dl-GO-ocV"/>
                         <segue destination="EvD-ep-0sV" kind="custom" identifier="InitialToSearchSegue" id="lmo-KT-C3u"/>
                     </connections>
                 </viewController>
