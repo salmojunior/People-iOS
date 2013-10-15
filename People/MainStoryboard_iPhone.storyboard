@@ -7,7 +7,7 @@
         <!--People Initial View Controller-->
         <scene sceneID="mUs-cW-vQc">
             <objects>
-                <viewController id="gaX-Op-6IB" customClass="PeopleInitialViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleInitialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gaX-Op-6IB" customClass="PeopleInitialViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="buR-9E-GvZ"/>
                         <viewControllerLayoutGuide type="bottom" id="hMo-fO-la8"/>
@@ -19,8 +19,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="8dY-pL-H99"/>
                     <connections>
-                        <segue destination="T0f-Yj-H6o" kind="custom" identifier="InitialToLoginSegue" customClass="PeopleInitialToLoginSegue" id="8dl-GO-ocV"/>
-                        <segue destination="EvD-ep-0sV" kind="custom" identifier="InitialToSearchSegue" customClass="PeopleInitialToSearchSegue" id="lmo-KT-C3u"/>
+                        <segue destination="T0f-Yj-H6o" kind="custom" identifier="PeopleInitialToLoginSegue" customClass="PeopleInitialToLoginSegue" id="8dl-GO-ocV"/>
+                        <segue destination="EvD-ep-0sV" kind="custom" identifier="PeopleInitialToSearchSegue" customClass="PeopleInitialToSearchSegue" id="lmo-KT-C3u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJB-bp-R7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -30,7 +30,7 @@
         <!--People Login View Controller-->
         <scene sceneID="XiU-Ya-XOq">
             <objects>
-                <viewController id="T0f-Yj-H6o" customClass="PeopleLoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleLoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T0f-Yj-H6o" customClass="PeopleLoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="10a-e5-7Sa"/>
                         <viewControllerLayoutGuide type="bottom" id="nH3-Er-FKP"/>
@@ -41,7 +41,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="EvD-ep-0sV" kind="custom" identifier="LoginToSearchSegue" customClass="PeopleLoginToSearchSegue" id="xzm-hi-OYv"/>
+                        <segue destination="EvD-ep-0sV" kind="custom" identifier="PeopleLoginToSearchSegue" customClass="PeopleLoginToSearchSegue" id="xzm-hi-OYv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzo-Y0-pgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -51,7 +51,7 @@
         <!--People Search View Controller-->
         <scene sceneID="IQL-6D-nWq">
             <objects>
-                <viewController id="EvD-ep-0sV" customClass="PeopleSearchViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EvD-ep-0sV" customClass="PeopleSearchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="khs-D1-4Iu"/>
                         <viewControllerLayoutGuide type="bottom" id="2Ek-E4-cHS"/>
@@ -62,7 +62,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="nUv-FM-4fo" kind="custom" identifier="SearchToProfileSegue" customClass="PeopleSearchToProfileSegue" id="D8K-w7-dev"/>
+                        <segue destination="nUv-FM-4fo" kind="custom" identifier="PeopleSearchToProfileSegue" customClass="PeopleSearchToProfileSegue" id="D8K-w7-dev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOn-Hs-yzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -72,7 +72,7 @@
         <!--People Profile View Controller-->
         <scene sceneID="oGY-8A-KpQ">
             <objects>
-                <viewController id="nUv-FM-4fo" customClass="PeopleProfileViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nUv-FM-4fo" customClass="PeopleProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rOj-OW-7fe"/>
                         <viewControllerLayoutGuide type="bottom" id="osD-Kv-9NH"/>
@@ -112,6 +112,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xzm-hi-OYv"/>
+        <segue reference="lmo-KT-C3u"/>
     </inferredMetricsTieBreakers>
 </document>

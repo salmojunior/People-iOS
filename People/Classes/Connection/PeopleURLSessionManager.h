@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 CI&T. All rights reserved.
 //
 
-#import "AFURLSessionManager.h"
+#import <AFNetworking/AFURLSessionManager.h>
 
 @interface PeopleURLSessionManager : AFURLSessionManager
 

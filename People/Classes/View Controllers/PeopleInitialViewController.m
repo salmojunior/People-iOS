@@ -27,8 +27,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-static NSString * const kInitialToLoginSegue = @"InitialToLoginSegue";
-static NSString * const kInitialToSearchSegue = @"InitialToSearchSegue";
+static NSString * const kInitialToLoginSegue = @"PeopleInitialToLoginSegue";
+static NSString * const kInitialToSearchSegue = @"PeopleInitialToSearchSegue";
 
 - (IBAction)transitionToLogin:(id)sender
 {

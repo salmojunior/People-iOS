@@ -13,7 +13,7 @@
 @end
 
 @implementation PeopleBaseViewController
-
+/*
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     
@@ -26,7 +26,7 @@
         
     }
     return self;
-}
+}*/
 
 - (void)viewDidLoad
 {
